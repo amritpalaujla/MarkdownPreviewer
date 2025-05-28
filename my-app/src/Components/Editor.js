@@ -15,8 +15,8 @@ class Editor extends React.Component {
 
   render() {
     return (
-      <div>
-        <textarea id="editor" onChange={this.handleInput}></textarea>
+      <div id="editor">
+        <textarea onChange={this.handleInput}></textarea>
       </div>
     );
   }
