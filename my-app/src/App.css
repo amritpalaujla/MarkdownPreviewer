@@ -47,10 +47,23 @@ body {
 }
 
 #previewer {
-  margin: 3em;
+  border: 2px solid black;
+  padding: 15px;
+  overflow: scroll;
 }
 
 textarea {
   height: 20em;
   width: 40em;
+}
+
+.header {
+  background-color: aquamarine;
+  border: 1px solid black;
+  border-bottom: 0;
+}
+
+#headerWhole {
+  justify-content: center;
+  max-width: 800px;
 }

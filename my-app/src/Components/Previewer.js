@@ -4,12 +4,17 @@ import DOMPurify from "dompurify";
 
 function previewer(props) {
   return (
-    <div
-      id="previewer"
-      dangerouslySetInnerHTML={{
-        __html: DOMPurify.sanitize(marked.parse(props.input)),
-      }}
-    ></div>
+    <div id="headerWhole">
+      <div className="header">
+        <b>Previewer</b>
+      </div>
+      <div
+        id="previewer"
+        dangerouslySetInnerHTML={{
+          __html: DOMPurify.sanitize(marked.parse(props.input)),
+        }}
+      ></div>
+    </div>
   );
 }
 
