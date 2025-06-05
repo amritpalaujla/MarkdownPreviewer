@@ -44,17 +44,20 @@ body {
 
 #editor {
   margin: 3em;
+  justify-content: center;
 }
 
 #previewer {
   border: 2px solid black;
   padding: 15px;
   overflow: scroll;
+  word-wrap: break-word;
 }
 
 textarea {
   height: 20em;
   width: 40em;
+  justify-self: center;
 }
 
 .header {
@@ -63,7 +66,11 @@ textarea {
   border-bottom: 0;
 }
 
+#editor .header {
+  max-width: 34em;
+}
+
 #headerWhole {
   justify-content: center;
-  max-width: 800px;
+  width: 800px;
 }
