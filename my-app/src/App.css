@@ -51,7 +51,7 @@ body {
 #previewer {
   border: 2px solid black;
   padding: 15px;
-  overflow: scroll;
+
   word-wrap: break-word;
 }
 
@@ -59,6 +59,7 @@ textarea {
   height: 20em;
   width: 40em;
   justify-self: center;
+  resize: vertical;
 }
 
 .header {
